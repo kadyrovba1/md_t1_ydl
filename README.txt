@@ -15,6 +15,4 @@ Installation:
 
 6.Install required packages: pip install -r requirements.txt
 
-7.Make migrations to DB: python manage.py makemigrations and python manage.py migrate
-
-8.Run Server: python manage.py runserver
+7.Run Server: python manage.py runserver
