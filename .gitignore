@@ -1,0 +1,5 @@
+#folder files
+__pycache__/
+
+#sql-file
+*.sqlite3
