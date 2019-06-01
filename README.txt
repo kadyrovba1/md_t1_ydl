@@ -15,4 +15,6 @@ Installation:
 
 6.Install required packages: pip install -r requirements.txt
 
-7.Run Server: python manage.py runserver
+7.Migration: python manage.py migrate
+
+8.Run Server: python manage.py runserver
