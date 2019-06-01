@@ -1,5 +1,5 @@
 #folder files
 __pycache__/
-
+.idea/
 #sql-file
 *.sqlite3
