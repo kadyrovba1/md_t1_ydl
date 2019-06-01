@@ -3,3 +3,4 @@ __pycache__/
 .idea/
 #sql-file
 *.sqlite3
+secretkey.py

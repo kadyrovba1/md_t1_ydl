@@ -2,7 +2,7 @@ from django import forms
 from .models import Download
 
 class DownloadForm(forms.ModelForm):
-    url = forms.CharField()
+    url = forms.URLField()
 
     class Meta:
         model = Download
