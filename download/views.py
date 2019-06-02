@@ -11,5 +11,5 @@ def index(request):
         Download.objects.create(upload=url)
         options = {'format': 'best'}
         with youtube_dl.YoutubeDL(options) as ydl:
-            ydl.download(url)
+            ydl.download([url])
     return render(request, 'download/index.html', {'form': form})
