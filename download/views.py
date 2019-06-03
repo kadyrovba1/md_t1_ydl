@@ -1,8 +1,9 @@
 from __future__ import unicode_literals
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from .forms import DownloadForm
 from .models import Download
 import youtube_dl
+
 
 def index(request):
     form = DownloadForm(request.POST or None)
